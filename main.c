@@ -10,7 +10,6 @@ ssize_t getline(char **lineptr, size_t *n, FILE *stream);
  * @argv: argument
  * Return: 0 on success
  */
-
 int main(int argc, char **argv)
 {
 	ssize_t nread;
